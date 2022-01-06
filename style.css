@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* section 1  start  */
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.header-content {
+    flex-basis: 40%;
+    margin-top: 5%;
+
+}
+
+.header-content h1 {
+    margin-left: 5%;
+    padding: 0 3%;
+    font-size: 60px;
+    border-left: 5px solid tomato;
+    font-family: 'Lora', serif;
+    color: rgb(51, 49, 49);
+}
+
+.header-content p {
+    font-size: 20px;
+    margin-left: 4%;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.button {
+    text-decoration: none;
+    margin: 4%;
+    padding: 10px;
+    color: gray;
+    border: 2px solid #ff4800ce;
+    border-radius: 8px;
+    background-color: #ff4800f8;
+    color: #fff;
+    font-weight: 700;
+}
+
+#small-text {
+    font-size: 19px;
+}
+
+.mission-text {
+    color: rgb(218, 145, 11);
+}
+
+.header-img {
+    margin-top: 3%;
+    flex-basis: 40%;
+
+}
+
+.header-img img {
+    width: 100%;
+}
+
+/* section 1 ar kaj ses  */
+#container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mission-2020 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.mission-2020 .m-2022 {
+    color: rgb(218, 145, 11);
+}
+
+#container-2 .mission {
+    flex-basis: 25%;
+    margin-bottom: 5%;
+    background-color: rgba(167, 219, 236, 0.527);
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+}
+
+#container-2 .mission h3 {
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+
+#container-2 .mission p {
+    font-size: 19px;
+    text-align: justify;
+    padding: 0% 7%;
+}
+
+#container-2 .mission img {
+    width: 50%
+}
+
+#container-2 .vission {
+    flex-basis: 25%;
+    margin-bottom: 5%;
+    background-color: rgba(212, 127, 233, 0.527);
+    border: 1px solid rgba(214, 133, 224, 0.733);
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+}
+
+#container-2 .vission img {
+    width: 50%
+}
+
+#container-2 .vission h3 {
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+
+#container-2 .vission p {
+    font-size: 19px;
+    text-align: justify;
+    padding: 0% 7%;
+}
+
+#container-2 .goals {
+    flex-basis: 25%;
+    margin-bottom: 5%;
+    background-color: rgba(238, 212, 142, 0.527);
+    border: 1px solid rgb(240, 238, 148);
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+
+}
+
+#container-2 .goals img {
+    width: 50%;
+}
+
+#container-2 .goals h3 {
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+
+#container-2 .goals p {
+    font-size: 19px;
+    text-align: justify;
+    padding: 0% 7%;
+}
+
+/* container-2 end */
+#container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#container-3 .left-side-img {
+    flex-basis: 45%;
+    background: url('./shape/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px 300px;
+}
+
+#container-3 .left-side-img img {
+    width: 80%;
+    margin: 5% 0 5% 15%;
+}
+
+#container-3 .right-side-content {
+    flex-basis: 45%;
+    margin-top: 7%;
+}
+
+#container-3 .right-side-content h1 {
+    font-size: 50px;
+    font-family: monospace;
+
+}
+
+#container-3 .right-side-content p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button-2 {
+    text-decoration: none;
+    margin: 4% 0%;
+    padding: 10px;
+    color: gray;
+    border: 2px solid #ff4800ce;
+    border-radius: 8px;
+    background-color: #ff4800f8;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* end of 3rd pat */
+#container-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#container-4 .left-side-content {
+    flex-basis: 45%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+#container-4 .left-side-content h1 {
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#container-4 .left-side-content p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#container-4 .right-cominuty-img {
+    flex-basis: 45%;
+}
+
+#container-4 .right-cominuty-img img {
+    width: 80%;
+    margin-left: 5%;
+}
+
+/* end of 4rth section  */
+.container-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.789), rgba(47, 39, 39, 0.894)), url(./people/back.jpg) no-repeat;
+    background-size: 100%;
+    padding-bottom: 3%;
+
+    /* background-color: black; */
+}
+
+.container-5 h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#container-experince {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#container-experince .my-img {
+    flex-basis: 40%;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px 7px rgb(12, 12, 12);
+    margin-bottom: 2%;
+}
+
+#container-experince .my-img img {
+    width: 70%;
+}
+
+#container-experince .about-part {
+    flex-basis: 40%;
+    color: #fff;
+
+}
+
+#container-experince .about-part h1 h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: larger;
+}
+
+#container-experince .about-part p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#container-experince .about-part h4 {
+    font-size: 28px;
+}
+
+#container-experince .about-part ol {
+    display: block;
+    font-size: 24px;
+    color: crimson
+}
+
+.button-2:hover {
+    background-color: crimson;
+    color: gainsboro;
+
+}
+
+.button:hover {
+    background-color: crimson;
+    color: gainsboro;
+
+}
+
+footer {
+    font-family: 'Lora', 'serif', 'Permanent Marker', cursive;
+    text-align: center;
+    padding: 1%;
+    color: ghostwhite;
+    background: #000;
+}
